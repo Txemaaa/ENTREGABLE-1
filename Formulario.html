@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1 class="titulo">TESLA</h1>
+        <h1 id="titulo">TESLA</h1>
         <nav class="barra-navegacion">
             <img src="img/Tesla_Motors.svg.png" alt="Logo de la empresa">
             <a class="item" href="index.html"> Inicio</a>
@@ -18,46 +18,59 @@
         </nav>
     </header>
 
-    <main class="caja">
-        <fieldset class="campo-contacto">
-            <legend>Datos de contacto</legend>
-            <label for="campo-nombre">Nombre</label>
-            <input type="text" id="campo-nombre" name="nombre" placeholder="Escribe aqui tu nombre">
-            
-            <label for="campo-apellido">Apellidos</label>
-            <input type="text" id="campo-apellido" name="apellidos" placeholder="Escribe aqui tu apellido">
-            
-            <label for="campo-email">Email</label>
-            <input type="email" name="email" id="campo-email" placeholder="Escribe aqui tu email">
-            
-            <label for="campo-edad">Edad</label>
-            <select name=""edad id="campo-edad">
-
-                <option value="Menor de 18"> Menor de 18</option>
-                <option value="18-24"> 18-24</option>
-                <option value="25 o mas"> 25 o mas</option>
-
-
-    
-                <textarea name="Comentarios" id="Comentario" cols="10" rows="10" placeholder="Comentarios"></textarea>      
-            </select>
+    <main id="caja">
+        <section>
+            <header>
+                <h2 id="Powerwall">Formulario</h2>
+            </header>
         
-
-        </fieldset>
-
-        <fieldset class="campo-contacto">
-            <legend>Concertar cita</legend>
-            <p>Selecciona la fecha y hora de la reserva</p>
-
-            <label for="campo-fecha"></label>
-            <input type="date">
-
-            <label for="campo-hora"></label>
-            <input type="time">
+            <div id="caja">
+                <fieldset class="campo-contacto">
+                    <legend>Datos de contacto</legend>
+                    <label for="campo-nombre">Nombre</label>
+                    <input type="text" id="campo-nombre" name="nombre" placeholder="Escribe aqui tu nombre">
             
+                    <label for="campo-apellido">Apellidos</label>
+                    <input type="text" id="campo-apellido" name="apellidos" placeholder="Escribe aqui tu apellido">
+            
+                    <label for="campo-email">Email</label>
+                    <input type="email" name="email" id="campo-email" placeholder="Escribe aqui tu email">
+            
+                    <label for="campo-edad">Edad</label>
+                    <select name=""edad id="campo-edad">
 
-        </fieldset>
+                        <option value="Menor de 18"> Menor de 18</option>
+                        <option value="18-24"> 18-24</option>
+                        <option value="25 o mas"> 25 o mas</option>
+                    </select>
+
+                    <textarea name="Comentarios" id="Comentario" cols="10" rows="10" placeholder="Comentarios"></textarea>      
+                </fieldset>
+
+                <fieldset class="campo-contacto">
+                    <legend>Concertar cita</legend>
+                    <p>Selecciona la fecha y hora de la reserva</p>
+
+                    <label for="campo-fecha"></label>
+                    <input type="date">
+
+                    <label for="campo-hora"></label>
+                    <input type="time">
+            
+                </fieldset>
+            </div>
+         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <ul class="contacto">
+            <li><strong>Telefono de contacto:</strong></li>
+            <li>Personal: 123-456-789</li>
+            <li>Fijo: 987-654-321 </li>
+            <li><strong>Correo:</strong></li>
+            <li>TeslaIoT@gmail.com</li>
+            <li><strong>Direccion</strong></li>
+            <li>1 Tesla Road, Austin, TX 78725</li>
+        </ul>
+    </footer>
 </body>
 </html>

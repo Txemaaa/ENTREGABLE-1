@@ -3,12 +3,19 @@
 body{
     padding-left: 1% ;
     padding-right: 1%;
-    border: black solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 92%;
 }
 img{
     width: 2%;
     height: 2%;
+    max-width: 2%;
+    max-height: 2%;
 }
+p{
+    margin-left: 10px;
+}
+
 /*  */
 
 
@@ -42,10 +49,11 @@ header{
     background-color: black;
     color: white
 }
-h1.titulo{
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #d4d9e0;
+#titulo{
+    margin: 0%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #d4d9e0;
 
 }
 /* Fin de estilos cabecera */
@@ -82,7 +90,7 @@ main{
 
 /* Estilos footer */
 footer{
-    background-color: greenyellow;
+    background-color: rgb(67, 194, 194);
     text-align: center;
 }
 
@@ -90,12 +98,15 @@ footer{
     list-style: none;    
     
 }
+h1,h2,h3{
+    margin-left: 10px;
+}
 /*  */
 
 /* css Formulario de contacto */
 
 
-.caja{
+#caja{
     justify-content: center;
     
 
@@ -105,7 +116,7 @@ footer{
     
     display: flex;
     flex-direction: column;
-    width: 10%;
+    background-color: #6ebabf ;
 
 }
 
@@ -121,6 +132,28 @@ footer{
     display: block;
     margin: auto;
     margin-bottom: 20px ;
+    max-width: 40%;
 }
+table{
+border: 1px solid;
+margin-left: 10px;
+
+}
+th{
+    background-color: #75c3c6;
+}
+
+td{
+    background-color: #96fbff;
+}
+
+/*  */
+
+/* css IoT_Hogar */
+p a{
+    color: white;
+}
+
+
 
 /*  */

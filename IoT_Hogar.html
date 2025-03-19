@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1 class="titulo">TESLA</h1>
+        <h1 id="titulo">TESLA</h1>
         <nav class="barra-navegacion">
             <img src="img/Tesla_Motors.svg.png" alt="Logo de la empresa">
             <a class="item" href="index.html"> Inicio</a>
@@ -17,7 +17,116 @@
             <a class="item" href="Formulario.html">Formulario de contacto</a>
         </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section class="primera-section">
+            <header>
+                <h2 id="Powerwall">Powerwall</h2>
+            </header>
+
+            <article class="atriculo_1">
+                <header> <h2 id="IoT">¿Que es Powerwall?</h2></header>
+                <p> 
+                    Powerwall le ofrece la posibilidad de almacenar energía para su uso posterior y funciona con o sin energía solar. 
+                    Cada sistema Powerwall incluye al menos un Powerwall y un Backup Gateway, que proporcionan supervisión, medición y 
+                    gestión de la energía para el sistema. Backup Gateway aprende y se adapta a su consumo de energía con el paso del tiempo, 
+                    recibe actualizaciones inalámbricas, al igual que el resto de productos Tesla, y es capaz de gestionar hasta diez Powerwalls.
+                <p>
+
+                <div class="p-aside">
+                    <p>
+                        Tesla Motors ha utilizado muy bien el IoT en sus coches. Sabemos que para el IoT necesitamos «una cosa» y aquí un coche es esa cosa. Con la ayuda 
+                        de la inteligencia artificial y el aprendizaje automático, Tesla ha logrado analizar y predecir el comportamiento de personas y coches en múltiples escenarios. 
+                    </p>
+
+                    <aside>
+                        En función de su configuración eléctrica, Powerwall dará suministro eléctrico a todos sus equipos eléctricos (respaldo para toda la casa)
+                        o a los esenciales (reserva parcial). Powerwall proporciona 5 kilovatios de potencia de salida continua, lo que suele ser suficiente para 
+                        dar respaldo a todo su hogar durante un corte de suministro de la red eléctrica.
+                        Con el respaldo parcial del hogar, puede seleccionar qué cargas son esenciales, como las luces y los enchufes. Si su hogar funciona con corriente
+                        trifásica, Powerwall dará suministro a los equipos de la fase que seleccione.
+                        Durante un corte de suministro de la red eléctrica, siempre es mejor no poner en marcha todos los equipos a la vez. Su Powerwall se apagará si el 
+                        consumo de energía combinado de los equipos supera los 5 kilovatios de potencia
+                    </aside>
+                 </div>
+                 <div>
+                    <img class="imagen_2" src="img/PW-Hero-Desktop-EMEA-1200x750.webp" alt="Imagen de la Powerwall">
+                 </div>
+            </article>
+
+            <article>
+                <header>
+                    <h2 id="Aplicacion">Aplicacion de Tesla para la gestión</h2><!--  vamos a poner links a las otras paginas por si no se quiere subir hasta arriba -->
+                </header>
+                <p class="Aplicacion">
+                    La aplicación de Tesla ofrece una experiencia integral para que gestione sus productos Tesla Energy desde cualquier lugar y en cualquier momento. 
+                    Para empezar, descargue la aplicación de Tesla en la <a href="https://apps.apple.com/es/app/tesla/id582007913?l=es">App Store</a> o 
+                    <a href="https://play.google.com/store/apps/details?id=com.teslamotors.tesla&hl=es-ES&pli=1">Google Play</a> e 
+                    <a href="https://auth.tesla.com/es_es/oauth2/v1/authorize?redirect_uri=https%3A%2F%2Fwww.tesla.com%2Fteslaaccount%2Fowner-xp%2Fauth%2Fcallback&response_type=code&client_id=ownership&scope=offline_access%20openid%20ou_code%20email%20phone&audience=https%3A%2F%2Fownership.tesla.com%2F&locale=es-ES">inicie sesión</a> con su Cuenta Tesla.
+                </p>
+                <div>
+                    <img class="imagen_2" src="img/PW-Control-Desktop-Global.avif" alt="Imagen de la Aplicacion">
+                    <p>La aplicación de Tesla le permite gestionar su sistema de energía desde cualquier lugar con una vista completa de su hogar. 
+                        Supervise las operaciones diarias y comprenda el flujo de energía en su hogar.
+                        Con la aplicación de Tesla, puede encontrar información sobre el consumo de energía de su hogar:
+                        <ul class="contacto">
+                            <li><strong>Datos de energía:</strong></li>
+                            <li>
+                                Manténgase al día del consumo de energía de su hogar, la producción de energía solar y 
+                                el comportamiento de carga de Powerwall. Consulte cómo utilizar sus gráficos de energía en la aplicación de Tesla.
+                            </li>
+
+                            <li><strong>Tarjetas de impacto</strong></li>
+                            <li>
+                                Descubra cómo su sistema solar y Powerwall generan valor a través del uso de energía de su hogar accediendo a las tarjetas de impacto.
+                            </li>
+
+                            <li><strong>Estadísticas de carga</strong></li>
+                            <li>
+                                Consulte sus gastos y ahorro totales al cargar su vehículo Tesla mediante la función de estadísticas de carga de la aplicación de Tesla.
+                            </li>
+
+                            <li><strong>Tarifas de electricidad</strong></li>
+                            <li>Las tarifas de electricidad miden con precisión el coste de importar o 
+                                exportar energía. La configuración y gestión de la tarifa de electricidad se realiza a través de la aplicación de Tesla.
+                            </li>
+
+                        </ul>
+                    </p>
+                </div>
+            </article>
+
+            <footer>
+                <p>De esta manera Tesla almacena la informacion, desde los dispositivos, y aplica la posibilidad de gestionar toda esta informacion, de cara al uso de la electricidad,
+                    de forma autonoma o autogestionada.
+                </p>
+            </footer>
+        </section>
+        <section class="segunda-section">
+            <aside class="aside">
+                <header>
+                    <h2>Secciones</h2>
+                </header>
+                <nav class="barra-navegacion" id="barra">
+                    <a class="item" href="#titulo">Comienzo</a>
+                    <a class="item" href="#Powerwall">Powerwall</a>
+                    <a class="item" href="#IoT">¿Que es IoT?</a>
+                    <a class="item" href="#Aplicaciones">Aplicacion Movil</a>
+
+                </nav>
+
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <ul class="contacto">
+            <li><strong>Telefono de contacto:</strong></li>
+            <li>Personal: 123-456-789</li>
+            <li>Fijo: 987-654-321 </li>
+            <li><strong>Correo:</strong></li>
+            <li>TeslaIoT@gmail.com</li>
+            <li><strong>Direccion</strong></li>
+            <li>1 Tesla Road, Austin, TX 78725</li>
+        </ul>
+         </footer>
 </body>
 </html>
