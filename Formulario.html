@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESLA</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">TESLA</h1>
+        <nav class="barra-navegacion">
+            <img src="img/Tesla_Motors.svg.png" alt="Logo de la empresa">
+            <a class="item" href="index.html"> Inicio</a>
+            <a class="item" href="IoT_Vehiculos.html">Vehiculos</a>
+            <a class="item" href="IoT_Hogar.html">IoT_Hogar</a>
+            <a class="item" href="Formulario.html">Formulario de contacto</a>
+        </nav>
+    </header>
+
+    <main class="caja">
+        <fieldset class="campo-contacto">
+            <legend>Datos de contacto</legend>
+            <label for="campo-nombre">Nombre</label>
+            <input type="text" id="campo-nombre" name="nombre" placeholder="Escribe aqui tu nombre">
+            
+            <label for="campo-apellido">Apellidos</label>
+            <input type="text" id="campo-apellido" name="apellidos" placeholder="Escribe aqui tu apellido">
+            
+            <label for="campo-email">Email</label>
+            <input type="email" name="email" id="campo-email" placeholder="Escribe aqui tu email">
+            
+            <label for="campo-edad">Edad</label>
+            <select name=""edad id="campo-edad">
+
+                <option value="Menor de 18"> Menor de 18</option>
+                <option value="18-24"> 18-24</option>
+                <option value="25 o mas"> 25 o mas</option>
+
+
+    
+                <textarea name="Comentarios" id="Comentario" cols="10" rows="10" placeholder="Comentarios"></textarea>      
+            </select>
+        
+
+        </fieldset>
+
+        <fieldset class="campo-contacto">
+            <legend>Concertar cita</legend>
+            <p>Selecciona la fecha y hora de la reserva</p>
+
+            <label for="campo-fecha"></label>
+            <input type="date">
+
+            <label for="campo-hora"></label>
+            <input type="time">
+            
+
+        </fieldset>
+    </main>
+    <footer></footer>
+</body>
+</html>

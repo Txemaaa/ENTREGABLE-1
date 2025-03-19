@@ -1,9 +1,24 @@
+/* Estilos body */
+
+body{
+    padding-left: 1% ;
+    padding-right: 1%;
+    border: black solid;
+}
+img{
+    width: 2%;
+    height: 2%;
+}
+/*  */
+
+
 /* Estilos para cabecera */
 
 header{
     background-color: #e1e6ed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .barra-navegacion{
     display: flex;
     justify-content: space-evenly;
@@ -16,42 +31,96 @@ header{
 .item{
     background-color: #b0b4ba;
     color: black;
-    border-radius: 10%;
+    border-radius: 12%;
     font-size: medium;
     padding: 10px   
+
 }
 
 .item:hover{
     transition: all 0.2s ease-in-out;
-    font-size: large;
     background-color: black;
     color: white
 }
+h1.titulo{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #d4d9e0;
+
+}
 /* Fin de estilos cabecera */
 
-/* Estilos main */
-
-.p-aside{
-    display: flex;
-    align-items: baseline;
-}
+/* Estilos main  index.html*/
 
 main{
     background-color: cadetblue;
     display: flex;
 }
-.Primera-section{
-    margin-right: 10px;
+
+
+.p-aside{
+    display: flex;
+    align-items: baseline;
+
 }
 
+.primera-section{
+    margin-right: 10px;
+    max-width: 80%;
+}
+.segunda-section{
+    width: 25%;
+}
+#barra.barra-navegacion{
+    gap: 20px;
+    position: fixed;
+    flex-direction: column;
+    max-width: 30%;
+}
 
 /*  */
 
-
-
-
-
-
+/* Estilos footer */
 footer{
     background-color: greenyellow;
+    text-align: center;
 }
+
+.contacto{
+    list-style: none;    
+    
+}
+/*  */
+
+/* css Formulario de contacto */
+
+
+.caja{
+    justify-content: center;
+    
+
+}
+
+.campo-contacto{
+    
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+
+}
+
+/* CSS IoT_Vehiculos */
+.p-aside_2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.imagen_2{
+    width: 40%;;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px ;
+}
+
+/*  */
