@@ -1,4 +1,5 @@
 /* Estilos body */
+/* Se añaden margenes interiores en los laterales, ademas de establecer un ancho y altura para la imagen logo de la barra de navegacion */
 
 body{
     padding-left: 1% ;
@@ -20,6 +21,8 @@ p{
 
 
 /* Estilos para cabecera */
+/* Se le añaden estilos a la barra de navegacion, para que sea mas operativa para el ususario, tanto a la barra como a los items.
+Se le da estilo al titulo principal */
 
 header{
     background-color: #e1e6ed;
@@ -59,6 +62,7 @@ header{
 /* Fin de estilos cabecera */
 
 /* Estilos main  index.html*/
+/* Codigo que se ira reutilizando en diferentes ambitos como la barra de navegacion y demas, se le da forma a las diferentes secciones del main y la barra laterall de navegacion */
 
 main{
     background-color: cadetblue;
@@ -89,6 +93,7 @@ main{
 /*  */
 
 /* Estilos footer */
+/* Estilos diferentes para el footer, diferente color para la apreciacion, espacio entre footer y main */
 footer{
     background-color: rgb(67, 194, 194);
     text-align: center;
@@ -121,6 +126,7 @@ h1,h2,h3{
 }
 
 /* CSS IoT_Vehiculos */
+/* Se hace uso del css del main principal ademas de añadir diferentes aspectos a items puntuales como a la imagenes y a las listas */
 .p-aside_2{
     display: flex;
     flex-direction: column;
@@ -150,6 +156,7 @@ td{
 /*  */
 
 /* css IoT_Hogar */
+/* Se reutiliza codigo desde el main y se implenta una pqueña apreciacion para los enlaes a diferentes paginas apra descargas */
 p a{
     color: white;
 }
